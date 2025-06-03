@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans;
+}
+
+
+
+.part_haut_barre{
+    display: flex;
+    position: absolute;
+    width:100% ;
+    height: 50px;
+    background-color: white;
+    border-radius:  0 25px 0 25px; ;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.part_haut_barre_menu {
+    display: flex;
+    gap:20px;
+   
+}   
+
+.btn{
+    background-color: transparent;
+    border-radius: 40px;
+    
+}
+
+.part_haut_barre_btn .btn{
+   margin-top: 15px;
+    background-color:white ;
+    color: rgb(30, 64, 12)e;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.part_haut_barre_btn .btn:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: large;
+    transition:  0.7s ease;
+}
+
+
+.part_bas{
+    
+    text-align: center;
+    align-items: center; 
+}
+
+.part_bas_text{
+    font-size: 20px;
+    color: rgb(30, 64, 12);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.part_bas .btn{
+    margin-top: 15px;
+    background-color:white ;
+    color: rgb(30, 64, 12)e;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.part_bas .btn:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: large;
+    transition:  0.7s ease;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .background {
+        background-image: url('images/route_mobile.png');
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .part_haut_barre {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .part_haut_barre_menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
