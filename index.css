@@ -5,15 +5,20 @@
     font-family: DM Sans;
 }
 
-
+.section1{
+    height: 745px;
+    background-image: url('images/route.png');
+    background-size: cover; 
+    background-position: center;
+    color: white;
+}
 
 .part_haut_barre{
     display: flex;
-    position: absolute;
+    align-items: center;
     width:100% ;
     height: 50px;
     background-color: white;
-    border-radius:  0 25px 0 25px; ;
     gap: 20px;
     justify-content: space-between;
 }
@@ -21,7 +26,7 @@
 .part_haut_barre_menu {
     display: flex;
     gap:20px;
-   
+   color: black;
 }   
 
 .btn{
@@ -33,7 +38,7 @@
 .part_haut_barre_btn .btn{
    margin-top: 15px;
     background-color:white ;
-    color: rgb(30, 64, 12)e;
+    color: rgb(30, 64, 12);
     border-radius: 40px;
     padding: 10px 20px;
 }
@@ -46,15 +51,15 @@
 }
 
 
-.part_bas{
-    
+.part_bas {
+    color: white;
     text-align: center;
     align-items: center; 
 }
 
 .part_bas_text{
     font-size: 20px;
-    color: rgb(30, 64, 12);
+    color: white;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -73,6 +78,30 @@
     font-size: large;
     transition:  0.7s ease;
 }
+
+
+
+.section2{
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.section2_text{
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.section2_img{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+    
 
 
 
